@@ -1,0 +1,21 @@
+*{
+    font-size: 14px;
+    /*color: #000;*/
+    font-family:'微软雅黑';
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.anticon{
+    /* font-size: 14px !important; */
+}
+.clearfix:after{
+  content:"";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  overflow: hidden;
+}

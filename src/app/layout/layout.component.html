@@ -1,0 +1,8 @@
+<app-header (urlInfo)="urlInfo($event)"></app-header>
+<app-sider [siderMenu]="siderMenu"></app-sider>
+<div style="padding:10px;background: #efefef;position: fixed;top:64px;left:200px;bottom:0;right:0;overflow: hidden;">
+  <nz-content style="background: #fff;width:100%;padding:16px;" [style.width.px]="offsetwidth">
+      <router-outlet></router-outlet>
+  </nz-content>
+</div>
+

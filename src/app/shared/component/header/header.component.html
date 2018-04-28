@@ -1,0 +1,14 @@
+<nz-layout class="layout">
+  <nz-header class="header">
+    <div class="logo pull-left"></div>
+    <ul class="clearfix">
+      <li (click)="sendUrl('/order')" [routerLink]="['/order']" routerLinkActive="navActive">订单</li>
+      <li (click)="sendUrl('/goods')" [routerLink]="['/goods']" routerLinkActive="navActive">商品</li>
+      <li (click)="sendUrl('/client')" [routerLink]="['/client']" routerLinkActive="navActive">客户</li>
+      <li (click)="sendUrl('/comment')" [routerLink]="['/comment']" routerLinkActive="navActive">点评</li>
+      <li (click)="sendUrl('/setting')" [routerLink]="['/setting']" routerLinkActive="navActive">设置</li>
+    </ul>
+  </nz-header>
+</nz-layout>
+
+
